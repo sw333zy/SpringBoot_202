@@ -7,6 +7,7 @@ public class Song {
     private String album;
     private int rating;
     private int year;
+    private String artist;
 
     public long getId() {
         return id;
@@ -42,6 +43,14 @@ public class Song {
 
     public int getYear() {
         return year;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public void setArtist(String artist) {
+        this.artist = artist;
     }
 
     public void setYear(int year) {
